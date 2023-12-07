@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('gitcheckout') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('unittesting') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('integration') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('staticscode') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
